@@ -52,7 +52,7 @@ if(KeyActivate){
 		with(activate)
 		{
 			
-			image_index = (other.direction/90);
+			image_index = (other.direction/90-2);
 			
 		}
 	

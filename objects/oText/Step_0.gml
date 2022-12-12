@@ -34,6 +34,10 @@ if (keyboard_check_pressed(vk_space))
 	   }
 	   else
 	   {
+		  
+		  oPai.image_index = 0;
+		  oMae.image_index = 0;
+		  
 		   with(obj_plyr) {
 				state = lastState
 				skipStepEvent = true
