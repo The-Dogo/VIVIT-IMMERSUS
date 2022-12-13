@@ -12,10 +12,12 @@ titleVisible = max (0, titleVisible - 0.01);
 
 if(room == rMenu)
 {
-	oNpc.visible = false;
+	oPai.visible = false;
+	oMae.visible = false;
 }else
 {
-	oNpc.visible = true;
+	oPai.visible = true;
+	oMae.visible = true;
 }
 
 if(keyboard_check_pressed(vk_anykey)) 

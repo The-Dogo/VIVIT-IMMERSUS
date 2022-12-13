@@ -9,7 +9,7 @@ global.targetRoom = -1;
 global.targetX = -1;
 global.targetY = -1;
 global.targetDirection = 0;
-
+global.iLifted = noone;
 
 surface_resize(application_surface, RESOLUTION_L, RESOLUTION_A);
 

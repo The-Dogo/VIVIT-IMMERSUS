@@ -10,8 +10,8 @@ speedwalk = 1.5;
 spridle = SVivi_IDLE;
 sprWalk = SVivi_Run;
 localFrame = 0;
-
-
+animationEndScript = -1; 
+z = 0;
 lastState = state;
 
 skipStepEvent = false;

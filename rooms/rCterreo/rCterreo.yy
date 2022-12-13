@@ -22,11 +22,10 @@
     {"resourceType":"GMRTileLayer","resourceVersion":"1.1","name":"Col","tilesetId":{"name":"TsCollision","path":"tilesets/TsCollision/TsCollision.yy",},"x":0,"y":0,"tiles":{"TileDataFormat":1,"SerialiseWidth":30,"SerialiseHeight":17,"TileCompressedData":[
 4,0,22,0,22,-27,0,3,22,0,22,-27,0,3,22,0,22,-27,0,3,22,0,22,-27,0,3,22,0,22,-26,
 0,4,1,44,0,7,-3,16,-4,1,5,50,1,55,50,1,-5,16,-2,50,1,1,-5,50,-2,1,-12,0,1,9,
--15,0,-2,1,-12,0,1,9,-15,0,-2,1,-5,0,4,3,1,1,4,-3,0,1,9,-15,0,2,9,1,-5,0,
-4,59,50,50,60,-3,0,1,9,-15,0,-2,9,-12,0,1,9,-6,0,3,1,0,1,-6,0,2,9,54,-12,0,
-1,9,-4,0,1,9,-5,1,1,17,-4,0,2,9,1,-17,0,-7,1,-4,0,2,9,1,-17,0,-7,1,-4,0,
-2,9,1,-18,0,5,16,1,16,1,16,-5,0,2,9,17,-12,0,1,9,-15,0,2,9,62,-3,0,-9,8,1,
-63,-15,8,1,63,],},"visible":true,"depth":100,"userdefinedDepth":false,"inheritLayerDepth":true,"inheritLayerSettings":false,"inheritVisibility":false,"inheritSubLayers":true,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
+-15,0,-2,1,-12,0,1,9,-15,0,-2,1,-12,0,1,9,-15,0,2,9,1,-12,0,1,9,-15,0,-2,9,-12,
+0,1,9,-6,0,3,1,0,1,-6,0,2,9,54,-12,0,1,9,-4,0,1,9,-5,1,1,17,-4,0,2,9,
+1,-17,0,-7,1,-4,0,2,9,1,-17,0,-7,1,-4,0,2,9,1,-18,0,5,16,1,16,1,16,-5,0,2,
+9,17,-12,0,1,9,-15,0,2,9,62,-3,0,-9,8,1,63,-15,8,1,63,],},"visible":true,"depth":100,"userdefinedDepth":false,"inheritLayerDepth":true,"inheritLayerSettings":false,"inheritVisibility":false,"inheritSubLayers":true,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Instances","instances":[
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_32D1C79B_1","properties":[],"isDnd":false,"objectId":{"name":"obj_plyr","path":"objects/obj_plyr/obj_plyr.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":256.0,"y":128.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_8FBF783","properties":[
@@ -38,6 +37,7 @@
             {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","propertyId":{"name":"entityActivateScript","path":"objects/pEntity/pEntity.yy",},"objectId":{"name":"pEntity","path":"objects/pEntity/pEntity.yy",},"value":"NewTextBox",},
             {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","propertyId":{"name":"entityActivateArgs","path":"objects/pEntity/pEntity.yy",},"objectId":{"name":"pEntity","path":"objects/pEntity/pEntity.yy",},"value":"[\"Este é seu pai ele esta assistindo ao jornal.\\n Deseja Falar com ele ?\",0,[\"1:Sim: Bom Dia Painho\",\"0:Não: Sair sem falar nada\"]]",},
             {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","propertyId":{"name":"entityNPC","path":"objects/pEntity/pEntity.yy",},"objectId":{"name":"pEntity","path":"objects/pEntity/pEntity.yy",},"value":"True",},
+            {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","propertyId":{"name":"entityCollision","path":"objects/pEntity/pEntity.yy",},"objectId":{"name":"pEntity","path":"objects/pEntity/pEntity.yy",},"value":"True",},
           ],"isDnd":false,"objectId":{"name":"oPai","path":"objects/oPai/oPai.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.43386164,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":0.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":127.0,"y":131.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_231E16F7","properties":[
             {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","propertyId":{"name":"entityActivateScript","path":"objects/pEntity/pEntity.yy",},"objectId":{"name":"pEntity","path":"objects/pEntity/pEntity.yy",},"value":"NewTextBox",},

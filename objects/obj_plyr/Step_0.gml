@@ -16,11 +16,11 @@ if(tile_meeting_precise(x+hSpeed,y,"Col"))
 	{  
 		if(canCollide)
 		{
-		    show_debug_message("AB");
+		   
 			x = x+sign(hSpeed);
 		}
 		
-			 show_debug_message("ACCCB");
+			 
 	}
     	hSpeed = 0;
 }	
