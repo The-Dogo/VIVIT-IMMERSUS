@@ -29,11 +29,11 @@ if(KeyActivate){
 	//1. Checa a entidade para ativar
 	//2. Se a entidade for um npc, vai fazer ele se virar para a gente
 	
-	var _activateX = lengthdir_x(10, direction);
-	var _activateY = lengthdir_y(10, direction);
-	var _activateSize = 4;
+	var _activateX = x + lengthdir_x(10, direction);
+	var _activateY = y + lengthdir_y(10, direction);
+	var _activateSize = 5;
 	var _activateList = ds_list_create();
-	activate = instance_position(x+_activateX, y+_activateY, pEntity);
+	activate = noone;
 	var _entitiesFound = collision_rectangle_list(
 	    _activateX - _activateSize,
 		_activateY - _activateSize,
@@ -46,7 +46,7 @@ if(KeyActivate){
 		true
 	);
 	
-		while (_entitiesFound > 0)
+	while (_entitiesFound > 0)
 	{
 		
 		var _check = _activateList[| --_entitiesFound];
@@ -64,11 +64,17 @@ if(KeyActivate){
 	
 	ds_list_destroy(_activateList);
 	
-	
 	if(activate = noone)
 	{
-	
-	state = PlayerStateFree;
+		
+		if(global.iLifted != noone)
+		{
+		PlayerThrow();	
+		}
+		else 
+		{
+	    state = PlayerStateFree;
+	    }
 	
 	}
 	
@@ -79,20 +85,26 @@ if(KeyActivate){
 	ScriptExecuteArray(activate.entityActivateScript, activate.entityActivateArgs);
 	
 	
-	if(activate.entityNPC)
-	{
+
+if(activate.entityNPC) {
+
 		with(activate)
-		{
+			{
+				
+            image_index = (other.direction/90)-2;
 			
-			image_index = (other.direction/90-2);
 			
-		}
-	
+			}
+		
 	}
-	
 	
 
-	}
+
 }
 
+		
+	}
+		
+
+	
 }

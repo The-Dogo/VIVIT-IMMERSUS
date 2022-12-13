@@ -6,6 +6,7 @@ function tile_meeting_precise(argument0, argument1, argument2) {
 	var _layer = argument2,
 	    _tm = layer_tilemap_get_id(_layer),
 	    _checker = obj_precise_tile_checker;
+		var _entityList = ds_list_create();
 	if(!instance_exists(_checker)) instance_create_depth(0,0,0,_checker);  
 
  
@@ -29,7 +30,51 @@ function tile_meeting_precise(argument0, argument1, argument2) {
 	}
 	  }
 	}
- 
+ var _entityCount = instance_position_list(x + hSpeed, y, pEntity, _entityList, false); /// aqui
+var _snapX;
+
+while (_entityCount > 0)
+{
+	var _entityCheck = _entityList[| 0];
+	if( _entityCheck.entityCollision == true)
+	{
+		
+		//Mover o mais perto que da
+		if(sign(hSpeed) == -1) _snapX = _entityCheck.bbox_right+1;
+		else _snapX = _entityCheck.bbox_left-1;
+		x = _snapX;
+		hSpeed = 0;
+		_collision = true;
+		_entityCount = 0;
+		
+	}
+	ds_list_delete(_entityList,0);
+	_entityCount--;
+} // até aqui
+ds_list_clear(_entityList);
+
+var _entityCount = instance_position_list(x , y+ vSpeed, pEntity, _entityList, false); /// aqui
+var _snapY;
+
+while (_entityCount > 0)
+{
+	var _entityCheck = _entityList[| 0];
+	if( _entityCheck.entityCollision == true)
+	{
+		
+		//Mover o mais perto que da
+		if(sign(vSpeed) == -1) _snapY = _entityCheck.bbox_bottom+1;
+		else _snapY = _entityCheck.bbox_top-1;
+		y = _snapY;
+		vSpeed = 0;
+		_collision = true;
+		_entityCount = 0;
+		
+	}
+	ds_list_delete(_entityList,0);
+	_entityCount--;
+} // até aqui
+ds_list_destroy(_entityList); // aqui tbm
 	return false;
 
 

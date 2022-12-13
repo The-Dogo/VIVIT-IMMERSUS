@@ -5,7 +5,7 @@ image_speed = 0;
 
 hSpeed = 0;
 vSpeed = 0;
-speedwalk = 1.5;
+speedwalk = 2;
 
 spridle = SVivi_IDLE;
 sprWalk = SVivi_Run;

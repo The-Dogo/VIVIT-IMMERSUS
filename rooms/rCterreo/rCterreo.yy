@@ -21,7 +21,7 @@
   "layers": [
     {"resourceType":"GMRTileLayer","resourceVersion":"1.1","name":"Col","tilesetId":{"name":"TsCollision","path":"tilesets/TsCollision/TsCollision.yy",},"x":0,"y":0,"tiles":{"TileDataFormat":1,"SerialiseWidth":30,"SerialiseHeight":17,"TileCompressedData":[
 4,0,22,0,22,-27,0,3,22,0,22,-27,0,3,22,0,22,-27,0,3,22,0,22,-27,0,3,22,0,22,-26,
-0,4,1,44,0,7,-3,16,-4,1,5,50,1,55,50,1,-5,16,-2,50,1,1,-5,50,-2,1,-12,0,1,9,
+0,4,1,44,0,7,-3,16,-4,1,5,50,1,55,50,50,-5,16,-2,50,1,1,-5,50,-2,1,-12,0,1,9,
 -15,0,-2,1,-12,0,1,9,-15,0,-2,1,-12,0,1,9,-15,0,2,9,1,-12,0,1,9,-15,0,-2,9,-12,
 0,1,9,-6,0,3,1,0,1,-6,0,2,9,54,-12,0,1,9,-4,0,1,9,-5,1,1,17,-4,0,2,9,
 1,-17,0,-7,1,-4,0,2,9,1,-17,0,-7,1,-4,0,2,9,1,-18,0,5,16,1,16,1,16,-5,0,2,
@@ -43,6 +43,7 @@
             {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","propertyId":{"name":"entityActivateScript","path":"objects/pEntity/pEntity.yy",},"objectId":{"name":"pEntity","path":"objects/pEntity/pEntity.yy",},"value":"NewTextBox",},
             {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","propertyId":{"name":"entityActivateArgs","path":"objects/pEntity/pEntity.yy",},"objectId":{"name":"pEntity","path":"objects/pEntity/pEntity.yy",},"value":"[\"Esta é sua mãe ela esta cozinhando. Deseja Falar com ela ?\" ,0,[\"4:Sim: Bom Dia mainha\",\"0:Não: Sair sem falar nada\"]]",},
             {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","propertyId":{"name":"entityNPC","path":"objects/pEntity/pEntity.yy",},"objectId":{"name":"pEntity","path":"objects/pEntity/pEntity.yy",},"value":"True",},
+            {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","propertyId":{"name":"entityCollision","path":"objects/pEntity/pEntity.yy",},"objectId":{"name":"pEntity","path":"objects/pEntity/pEntity.yy",},"value":"True",},
           ],"isDnd":false,"objectId":{"name":"oMae","path":"objects/oMae/oMae.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":249.0,"y":73.0,},
       ],"visible":true,"depth":0,"userdefinedDepth":false,"inheritLayerDepth":true,"inheritLayerSettings":false,"inheritVisibility":false,"inheritSubLayers":true,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
     {"resourceType":"GMRTileLayer","resourceVersion":"1.1","name":"Tmobilia","tilesetId":{"name":"tsCasagenerica","path":"tilesets/tsCasagenerica/tsCasagenerica.yy",},"x":0,"y":0,"tiles":{"TileDataFormat":1,"SerialiseWidth":30,"SerialiseHeight":17,"TileCompressedData":[
