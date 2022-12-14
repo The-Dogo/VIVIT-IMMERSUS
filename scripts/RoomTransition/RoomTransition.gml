@@ -4,8 +4,9 @@ function RoomTransition(){
 	
 	if(!instance_exists(oTransition))
 	{
-		with (instance_create_depth(0,0, -9999, oTransition))
+		with(instance_create_depth(0,0, -9999, oTransition))
 		{
+			show_debug_message("Bug muito");
 			type = argument[0];
 			target = argument[1];
 		}

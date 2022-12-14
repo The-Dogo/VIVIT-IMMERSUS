@@ -7,7 +7,7 @@ if(!keyPressed)
 }else
 {
 
-titleVisible = max (0, titleVisible - 0.01);
+    titleVisible = max (0, titleVisible - 0.01);
 }
 
 if(room == rMenu)

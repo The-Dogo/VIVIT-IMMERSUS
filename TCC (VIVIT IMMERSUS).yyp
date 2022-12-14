@@ -61,6 +61,7 @@
     {"id":{"name":"oText","path":"objects/oText/oText.yy",},"order":3,},
     {"id":{"name":"oCubo2","path":"objects/oCubo2/oCubo2.yy",},"order":2,},
     {"id":{"name":"rCterreo","path":"rooms/rCterreo/rCterreo.yy",},"order":1,},
+    {"id":{"name":"oCreditos","path":"objects/oCreditos/oCreditos.yy",},"order":10,},
     {"id":{"name":"tPoJaCasa","path":"tilesets/tPoJaCasa/tPoJaCasa.yy",},"order":14,},
     {"id":{"name":"tile_meeting_precise","path":"scripts/tile_meeting_precise/tile_meeting_precise.yy",},"order":5,},
     {"id":{"name":"SMainha","path":"sprites/SMainha/SMainha.yy",},"order":0,},
@@ -73,6 +74,7 @@
     {"id":{"name":"sWall","path":"sprites/sWall/sWall.yy",},"order":7,},
     {"id":{"name":"sToyTrain","path":"sprites/sToyTrain/sToyTrain.yy",},"order":0,},
     {"id":{"name":"oTransition","path":"objects/oTransition/oTransition.yy",},"order":6,},
+    {"id":{"name":"rCreditos","path":"rooms/rCreditos/rCreditos.yy",},"order":5,},
     {"id":{"name":"SCollision","path":"sprites/SCollision/SCollision.yy",},"order":1,},
     {"id":{"name":"sNpc","path":"sprites/sNpc/sNpc.yy",},"order":1,},
     {"id":{"name":"SquartoShadowless","path":"sprites/SquartoShadowless/SquartoShadowless.yy",},"order":1,},
@@ -104,6 +106,7 @@
     {"roomId":{"name":"rCterreo","path":"rooms/rCterreo/rCterreo.yy",},},
     {"roomId":{"name":"rMenu","path":"rooms/rMenu/rMenu.yy",},},
     {"roomId":{"name":"rParent","path":"rooms/rParent/rParent.yy",},},
+    {"roomId":{"name":"rCreditos","path":"rooms/rCreditos/rCreditos.yy",},},
   ],
   "Folders": [
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Anotações","folderPath":"folders/Anotações.yy","order":11,},
