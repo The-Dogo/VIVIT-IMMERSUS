@@ -1,5 +1,6 @@
 
 state = PlayerStateFree;
+lastState = state;
 
 image_speed = 0;
 

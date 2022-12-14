@@ -1,7 +1,7 @@
 /// @description Layer management
 // You can write your code in this editor
 
-//layer_set_visible("Col",false)
+layer_set_visible("Col",false)
 
 if(room == rCasa) oCubo.visible = false; show_debug_message("VOCE ACERTOU 1");
 if(room == rCasa) oCubo2.visible = false; 
