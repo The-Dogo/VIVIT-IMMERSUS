@@ -1,4 +1,9 @@
+<<<<<<< HEAD
 /// @description 
+=======
+/// @description Insert description here
+// You can write your code in this editor
+>>>>>>> 3b749c404c11e0b622d942e1c014c663259e0412
 
 if(room == rMenu) visible = false; else visible = true;
 
@@ -27,13 +32,24 @@ if (global.gamepaused)
 			case 1:
 			{
             
+<<<<<<< HEAD
 		    
 			game_restart();
 			
 				
+=======
+			game_restart();
+	
+>>>>>>> 3b749c404c11e0b622d942e1c014c663259e0412
 				
 			}break;
 			
 		}
 	}
+<<<<<<< HEAD
 }
+=======
+}
+
+
+>>>>>>> 3b749c404c11e0b622d942e1c014c663259e0412

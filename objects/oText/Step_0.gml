@@ -19,7 +19,11 @@ if (keyboard_check_pressed(vk_space))
    var _messageLength = string_length(mensagem);
    if (textProgess >= _messageLength)
    {
+<<<<<<< HEAD
 	    audio_stop_sound(aUndTalk)
+=======
+	   
+>>>>>>> 3b749c404c11e0b622d942e1c014c663259e0412
 	   if(responses[0] != -1)
 	   {
 		   
@@ -34,7 +38,11 @@ if (keyboard_check_pressed(vk_space))
 	   }
 	   else
 	   {
+<<<<<<< HEAD
 		   audio_stop_sound(aUndTalk)
+=======
+		  
+>>>>>>> 3b749c404c11e0b622d942e1c014c663259e0412
 		  oPai.image_index = 0;
 		  oMae.image_index = 0;
 		  

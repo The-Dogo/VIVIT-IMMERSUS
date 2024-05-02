@@ -42,6 +42,7 @@ if (!global.gamepaused)
 		break;
 	}
 }
+<<<<<<< HEAD
 
 
    
@@ -50,3 +51,5 @@ if (!global.gamepaused)
 
 
 
+=======
+>>>>>>> 3b749c404c11e0b622d942e1c014c663259e0412

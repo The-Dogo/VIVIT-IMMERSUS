@@ -10,6 +10,7 @@ global.targetDirection = obj_plyr.direction;
 
 with(obj_plyr) state = PlayerStateTransition;
 RoomTransition(TRANS_TYPE.FADE, targetRoom);
+<<<<<<< HEAD
 audio_sound_gain(aQuarto,0,1000);
 if(audio_sound_get_gain(aQuarto)<= 0)
 {
@@ -21,5 +22,9 @@ if(audio_sound_get_gain(aSalCo)<= 0)
 	audio_stop_sound(aSalCo);
 }
 instance_destroy();
+=======
+instance_destroy();
+
+>>>>>>> 3b749c404c11e0b622d942e1c014c663259e0412
 	}
 

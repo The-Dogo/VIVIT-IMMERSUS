@@ -36,9 +36,13 @@
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,},
   ],
   "properties": [],
+<<<<<<< HEAD
   "overriddenProperties": [
     {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","propertyId":{"name":"entityNPC","path":"objects/pEntity/pEntity.yy",},"objectId":{"name":"pEntity","path":"objects/pEntity/pEntity.yy",},"value":"True",},
   ],
+=======
+  "overriddenProperties": [],
+>>>>>>> 3b749c404c11e0b622d942e1c014c663259e0412
   "parent": {
     "name": "Personagens",
     "path": "folders/Objetos/Personagens.yy",

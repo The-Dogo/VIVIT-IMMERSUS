@@ -26,9 +26,12 @@ switch (array_length_1d(_args)) {
  
  case 8: return script_execute(_scr, _args[0], _args[1], _args[2], _args[3], _args[4], _args[5], _args[6], _args[7]);
  
+<<<<<<< HEAD
  case 9: return script_execute(_scr, _args[0], _args[1], _args[2], _args[3], _args[4], _args[5], _args[6], _args[7], _args[8]);
  
  
+=======
+>>>>>>> 3b749c404c11e0b622d942e1c014c663259e0412
  default: show_error("script_execute_array: argument count not supported!", false);
 }
 	

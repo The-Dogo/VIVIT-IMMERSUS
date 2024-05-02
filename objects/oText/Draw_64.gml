@@ -6,12 +6,15 @@ draw_set_valign(fa_top);
 draw_set_color(c_black);
 var _print = string_copy(mensagem, 1,textProgess);
 
+<<<<<<< HEAD
 if(textProgess >= string_length(mensagem)) 
 {
 	audio_stop_sound(aUndTalk)          	
 }
 
 
+=======
+>>>>>>> 3b749c404c11e0b622d942e1c014c663259e0412
 if (responses[0] != -1) && (textProgess >= string_length(mensagem))
 {
 	for (var i = 0; i < array_length_1d(responses); i++)

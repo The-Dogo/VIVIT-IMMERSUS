@@ -67,7 +67,11 @@ if(KeyActivate){
 	if(activate = noone)
 	{
 		
+<<<<<<< HEAD
 		if(global.iLifted != noone) 
+=======
+		if(global.iLifted != noone)
+>>>>>>> 3b749c404c11e0b622d942e1c014c663259e0412
 		{
 		PlayerThrow();	
 		}
@@ -90,9 +94,14 @@ if(activate.entityNPC) {
 
 		with(activate)
 			{
+<<<<<<< HEAD
 			
 			direction = point_direction(x,y,other.x,other.y);
             image_index = CARDINAL_DIR
+=======
+				
+            image_index = (other.direction/90)-2;
+>>>>>>> 3b749c404c11e0b622d942e1c014c663259e0412
 			
 			
 			}

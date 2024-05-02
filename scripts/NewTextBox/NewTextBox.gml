@@ -1,6 +1,9 @@
 
 function NewTextBox(){
+<<<<<<< HEAD
 	audio_play_sound(aUndTalk,1000,true,,1.46)
+=======
+>>>>>>> 3b749c404c11e0b622d942e1c014c663259e0412
 	var _obj;
 	if(instance_exists(oText)) _obj = oTextQueued; else _obj = oText;
 	with (instance_create_layer(0,0, "Instances",_obj))
@@ -52,7 +55,11 @@ with(obj_plyr)
 	if (state != PlayerStateLock)
     {
 		lastState = state;
+<<<<<<< HEAD
 		state = PlayerStateLock;
+=======
+		state = PlayerStateLock
+>>>>>>> 3b749c404c11e0b622d942e1c014c663259e0412
 	}
 }
 
