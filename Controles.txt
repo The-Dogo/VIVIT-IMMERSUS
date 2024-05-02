@@ -1,0 +1,3 @@
+W A S D - Movimentação da Personagem
+Espaço - Interação com os personagens/objetos
+Esc - Pause

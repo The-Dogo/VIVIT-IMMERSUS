@@ -1,0 +1,9 @@
+Qualquer bug, sugestão ou qualquer coisa que voce queira falar sobre o jogo
+é so mandar mensagem pra Diogo ou pra Wagner.
+
+Obrigado por baixar nossa Demo!
+
+Obs.: na quest de arrumar o quarto, cada brinquedo tem que ser colocado em seu respectivo quadrado, e os quadrados possuem a cor
+referente a uma caracteristica do brinquedo.
+
+Ex: o quadrado todo amarelo é onde deve ser colocado a boneca, pois ela tem cabelos loiros.
